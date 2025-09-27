@@ -5,14 +5,14 @@ A Python project for processing GitHub repositories and applying various text ch
 ## Features
 
 ### Document Processing
-- **GitHub Repository Reader**: Download and process markdown files from GitHub repositories
-- **Frontmatter Support**: Extract metadata from markdown files with frontmatter parsing
-- **Multiple File Format Support**: Process `.md` and `.mdx` files
+- GitHub Repository Reader: Download and process markdown files from GitHub repositories
+- Frontmatter Support: Extract metadata from markdown files with frontmatter parsing
+- Multiple File Format Support: Process `.md` and `.mdx` files
 
 ### Text Chunking Strategies
-- **Sliding Window Chunking**: Process text using overlapping windows with configurable size and step
-- **Markdown Level Splitting**: Split documents by specific header levels (e.g., `## headers`)
-- **Intelligent Chunking**: AI-powered semantic chunking using OpenAI models for optimal section division
+- Sliding Window Chunking: Process text using overlapping windows with configurable size and step
+- Markdown Level Splitting: Split documents by specific header levels (e.g., `## headers`)
+- Intelligent Chunking: AI-powered semantic chunking using OpenAI models for optimal section division
 
 ## Installation
 
