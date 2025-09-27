@@ -36,8 +36,3 @@ def read_repo_data(reoi_owner, repo_name):
     zf.close()
     return repository_data
 
-if __name__ == "__main__":
-    owner = 'rachel0619'
-    repo = 'VanTrails'
-    data = read_repo_data(owner, repo)
-    print(data[1])
