@@ -1,5 +1,6 @@
 from src.chunking import split_markdown_by_level
 from src.read_repo import read_repo_data
+from src.search import text_search, vector_search, hybrid_search
 
 if __name__ == "__main__":
     owner = 'rachel0619'
@@ -16,5 +17,9 @@ if __name__ == "__main__":
             section_doc = doc_copy.copy()
             section_doc['section'] = section
             chunks.append(section_doc)
-    
-    print(chunks[1])
+
+    query = "what tech stack does VanTrails use?"
+
+    # result = text_search(chunks, query)
+    result = vector_search(chunks, query)
+    # result = hybrid_search(chunks, query)
